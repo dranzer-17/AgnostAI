@@ -11,6 +11,41 @@
 
 ---
 
+## About Me
+
+**Location:** Mumbai — open to relocating to Bangalore or San Francisco
+
+**Stipend expectation:** $1,000/month
+
+**Role:** Internship for now — happy to convert to full-time if it's a fit for both sides
+
+**Earliest start date:** June 15th (no notice period)
+
+**Open-source:** Fixed flaws in the test eval pipeline of [Omega Memory](https://github.com/dranzer-17/omega-memory/commit/48f1f57407cc01067669ecc05b404a4b01c79f00) — a memory layer for AI agents. The eval suite had edge cases that let bad memory retrievals pass silently.
+
+---
+
+## Top 3 Agent Productivity Hacks
+
+**1. Claude + Cursor as a team, not a tool**
+Claude is more accurate and reasons better; Cursor is fast and stays in the editor flow. I run them simultaneously — Claude as the senior engineer thinking through architecture and edge cases, Cursor as the fast hands executing the well-defined subtasks. One big engineer + 3-4 interns.
+
+**2. Skills and MCP connectors, not raw chat**
+Most people use Claude as a chat box and get frustrated when it doesn't deliver. Claude Skills and MCP servers (for filesystem, APIs, databases) are what unlock real output. A Claude that can read your codebase, query your DB, and call your APIs is a different tool entirely.
+
+**3. 70% planning, 30% coding**
+I spend most of my time ideating, designing the architecture, and deciding which tools to use — before writing a single line. That upfront clarity is where I have the most leverage. Once the design is locked, Claude + Cursor handles the coding while I observe and steer.
+
+---
+
+## Hot Take
+
+> Developers who just write code will become largely obsolete — only ~30% will remain relevant. The ones who survive are those who ideate, architect, and design systems. The SDE role is slowly shifting: AI writes the code and manages workflows, humans supervise and set direction. The leverage is moving upstream — from implementation to design.
+
+---
+
+---
+
 ## What Was Built
 
 A real-time voice analytics engine that ingests VAPI end-of-call webhooks, extracts the user's core problem via LLM, clusters it by intent, runs sentiment analysis, and surfaces results on a PM dashboard.
